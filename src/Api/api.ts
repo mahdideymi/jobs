@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: `https://jobs.profile-digital.com/`,
+  baseURL: `baseUrl`,
   responseType: 'json',
 });
