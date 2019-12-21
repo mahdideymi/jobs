@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  border-top: 1px solid #e4e4e4; //set #E4E4E4 because I don't know what is the color
+}
+
+.footer .footer__link {
+  font-family: Vazir;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #969696;
+  text-decoration: none;
+  padding: 0 12px;
+}
+.footer a:hover {
+  color: #969696;
+}
+
+@media only screen and (max-width: 320px) {
+  .footer .footer__link {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .footer .footer__link {
+    padding: 6px;
+  }
+}

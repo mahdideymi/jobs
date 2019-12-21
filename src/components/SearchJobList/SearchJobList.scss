@@ -1,0 +1,41 @@
+@import 'Styles/mixins/mixins.scss';
+@import 'Styles/grid/grid.scss';
+
+div {
+  direction: rtl;
+}
+
+.searchList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &__logo {
+    margin-top: 12px;
+  }
+  &__card {
+    border-radius: 6px !important;
+    margin-top: 8px !important;
+    &__title {
+      font-weight: bold;
+    }
+    &__button {
+      width: 100%;
+      margin-top: 5%;
+    }
+  }
+  &__error {
+    @include form__error;
+  }
+}
+
+@include susy-media(320px 1024px) {
+  .searchList {
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgray;
+  }
+}
+@include susy-media(500px 1024px) {
+  .searchList {
+    width: 80%;
+  }
+}

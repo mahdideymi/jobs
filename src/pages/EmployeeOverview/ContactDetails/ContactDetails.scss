@@ -1,0 +1,15 @@
+.ContactDetails {
+    text-align: center;
+    align-items: stretch;
+    height: 100vh;
+
+    .gutter-example .ant-row>div {
+        background: transparent;
+        border: 0;
+    }
+
+    .Col {
+        background: black;
+        color: #fff;
+    }
+}

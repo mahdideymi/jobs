@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1",
+    "title": "جدید",
+    "candidates": [
+      {
+        "id": "candidate-1",
+        "content": "حمیدرضا"
+      },
+      {
+        "id": "candidate-2",
+        "content": "سینا"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "مصاحبه تلفنی",
+    "candidates": [
+      {
+        "id": "candidate-3",
+        "content": "آقای بیدرنگ"
+      },
+      {
+        "id": "candidate-4",
+        "content": "کریستیانو رونالدو"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "مصاحبه حضوری",
+    "candidates": []
+  },
+  {
+    "id": "4",
+    "title": "ارزیابی",
+    "candidates": [
+      {
+        "id": "candidate-5",
+        "content": "لیونل مسی"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "در انتظار تایید پیشنهاد",
+    "candidates": []
+  },
+  {
+    "id": "6",
+    "title": "استخدام",
+    "candidates": []
+  }
+]

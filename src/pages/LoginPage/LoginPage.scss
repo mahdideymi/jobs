@@ -1,0 +1,81 @@
+@import 'Styles/mixins/mixins.scss';
+.login {
+  & .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+
+  &__profileLogin {
+    display: flex;
+    flex-grow: 1.5;
+    justify-content: center;
+    padding: 8px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: flex-start;
+    padding-top: 20px;
+    margin: 0 8px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    &__label {
+      @include card__input__label;
+    }
+    &--error {
+      @include form__input__error;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  &__forgetPass {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  &__secondcard {
+    &__text {
+      text-align: center;
+    }
+  }
+
+  &__error {
+    @include form__error;
+  }
+
+  & .footer {
+    flex-grow: 0.4;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .login {
+    &__cards {
+      width: 420px;
+    }
+    & .container {
+      overflow: auto;
+    }
+    & .footer {
+      padding: 10px;
+    }
+  }
+}

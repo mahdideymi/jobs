@@ -1,0 +1,28 @@
+@import 'Styles/mixins/mixins.scss';
+
+.applyResume {
+  &__input {
+    margin: 6px 0;
+    &__label {
+      @include card__input__label;
+      margin: 4px 0;
+    }
+    &--error {
+      @include form__input__error;
+    }
+    &--textError {
+      @include form__error;
+    }
+    &__file {
+      width: 100%;
+      border-radius: 4;
+      margin: 6px 0px;
+      &__button {
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        padding: 4px 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}

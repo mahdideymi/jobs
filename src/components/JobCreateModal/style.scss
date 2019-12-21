@@ -1,0 +1,14 @@
+.job-create-modal {
+  &__input {
+    margin: 8px 0 12px !important;
+
+    &--error {
+      border-color: #f5222d !important;
+    }
+  }
+
+  &__danger {
+    display: block;
+    margin-bottom: 8px;
+  }
+}

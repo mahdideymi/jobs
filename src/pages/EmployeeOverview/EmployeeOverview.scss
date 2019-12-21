@@ -1,0 +1,31 @@
+.EmployeeOverview {
+    background: #fff;
+    padding: 20px;
+    min-height: 100vh;
+
+    &__icon {
+        color: #dbdbdb;
+
+        &--plus {
+            margin-left: 10px;
+        }
+
+        &--check {
+            margin: 0 10px;
+        }
+    }
+
+    &__ContactDetailsAndPdfViewer {
+        // background: hotpink;
+        margin-top: 50px;
+
+        &__contactDetails_item {
+            margin: 10px 0;
+        }
+    }
+
+    .ant-card-head-title {
+        // text-align: center;
+    }
+
+}

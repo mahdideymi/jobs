@@ -1,0 +1,89 @@
+@import 'Styles/mixins/mixins.scss';
+
+.register {
+  height: 100vh;
+
+  & .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  &__card {
+    .ant-card-body {
+      padding: 16px;
+    }
+    margin: 8px;
+    display: flex;
+    flex-grow: 3;
+    align-items: center;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__nameAndFamily {
+    display: flex;
+    input {
+      &:first-child {
+        margin-left: 3px !important;
+      }
+      &:last-child {
+        margin-right: 3px !important;
+      }
+    }
+  }
+
+  &__input {
+    &__label {
+      @include card__input__label;
+    }
+    &--error {
+      @include form__input__error;
+    }
+  }
+  &__error {
+    @include form__error;
+  }
+
+  &__accept {
+    margin-top: 8px;
+    font-size: 0.9em;
+    text-align: justify;
+  }
+
+  &__button {
+    width: 100%;
+  }
+
+  & .footer {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (orientation: landscape) {
+  .footer {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .register {
+    &__card {
+      width: 420px;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    & .footer {
+      flex-grow: 0.2;
+    }
+  }
+}

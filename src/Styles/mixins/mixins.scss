@@ -1,0 +1,35 @@
+@mixin card__title {
+  margin: 0;
+  font-family: Vazir;
+  font-size: 14px;
+  font-weight: bold;
+  color: #595959;
+  text-align: center;
+}
+@mixin card__input__label {
+  font-family: Vazir;
+  color: #595959;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 2.4%;
+}
+@mixin cards__position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+@mixin ant__input {
+  margin-top: 4px !important;
+  margin-bottom: 6px !important;
+}
+@mixin form__error {
+  color: red;
+  margin: 0;
+  font-family: Vazir;
+}
+@mixin form__input__error {
+  border: 1px solid red !important;
+}

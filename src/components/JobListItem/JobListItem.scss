@@ -1,0 +1,47 @@
+@import 'Styles/grid/grid.scss';
+
+.jobListItemOrg {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.jobListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &__card {
+    width: 100%;
+    margin: 8px auto !important;
+    border-radius: 8px !important;
+  }
+  &__detail {
+    display: flex;
+    align-items: flex-start;
+    &__avatar {
+      width: 40px !important;
+      height: 40px !important;
+    }
+    &__text {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      margin-right: 12px;
+      &__title {
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .jobListItem {
+    &__button {
+      display: none !important;
+    }
+    &__card {
+      margin: 4px 0px !important;
+    }
+  }
+}

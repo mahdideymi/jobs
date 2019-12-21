@@ -1,0 +1,12 @@
+// export { LoginPage } from './LoginPage/LoginPage';
+export { EmployerJobsPage } from './EmployerJobsPage';
+export { CandidatesPage } from './CandidatesPage';
+export { EmployerStagePage } from './EmployerStagePage';
+export { RegisterPage } from './RegisterPage/RegisterPage';
+export { JobListPage } from './JobListPage/JobListPage';
+export { JobDetail } from './JobDetail/JobDetail';
+export { LoginPage } from './LoginPage/LoginPage';
+export { NotFoundPage } from './NotFoundPage/NotFoundPage';
+export { ApplyResume } from './ApplyResume/ApplyResume';
+export { EmployeeOverview } from './EmployeeOverview';
+// export { LoginPage };

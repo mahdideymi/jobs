@@ -1,0 +1,4 @@
+export const JOB_LIST_SUCCESS = 'JOB_LIST_SUCCESS';
+export const JOB_LIST_REQUEST = 'JOB_LIST_REQUEST';
+export const JOB_LIST_FAILED = 'JOB_LIST_FAILED';
+export const JOB_LIST_SEARCH = 'JOB_LIST_SEARCH';

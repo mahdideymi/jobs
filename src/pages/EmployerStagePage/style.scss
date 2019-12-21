@@ -1,0 +1,39 @@
+.employer-stage-page {
+  &__title {
+    margin-bottom: 0;
+    font-size: 16px;
+
+    &--sub {
+      font-weight: bold;
+    }
+  }
+
+  &__header {
+    padding: 0 8px 0 180px !important;
+    justify-content: space-between;
+
+    &__dropdown {
+      > button {
+        height: 28px;
+        &:first-child {
+          border-radius: 0 4px 4px 0 !important;
+        }
+        &:last-child {
+          border-radius: 4px 0 0 4px !important;
+          margin-left: 8px !important;
+        }
+      }
+      i {
+        display: inline-flex !important;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  &__content {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}

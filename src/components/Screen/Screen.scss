@@ -1,0 +1,22 @@
+@import 'Styles/grid/grid.scss';
+
+.screen-background {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+.screen-background .container {
+  height: 100vh;
+  position: relative;
+}
+
+@include susy-media(415px 760px) {
+  .screen-background .container {
+    height: 200vh;
+  }
+}
+@include susy-media(800px 900px) {
+  .screen-background .container {
+    height: 200vh;
+  }
+}

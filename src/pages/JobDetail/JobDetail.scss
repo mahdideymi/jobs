@@ -1,0 +1,67 @@
+.jobDetail {
+  height: 100%;
+  overflow-y: auto;
+  & .container {
+    max-width: 800px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__card {
+    flex-grow: 9;
+    margin-bottom: 4px;
+  }
+
+  &__send {
+    flex-grow: 1;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    bottom: 0;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 18px;
+    &__text {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 0 8px;
+    }
+    &__city {
+      font-size: 1em;
+      margin: 0 2px;
+    }
+  }
+
+  &__company {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid lightgray;
+
+    &__name {
+      font-weight: bold;
+      margin-right: 12px;
+      flex-grow: 9;
+    }
+  }
+
+  &__description {
+    margin-top: 18px;
+
+    &__body {
+      &__text {
+        font-size: 1.25em;
+        line-height: 35px;
+        text-align: justify;
+      }
+    }
+  }
+}

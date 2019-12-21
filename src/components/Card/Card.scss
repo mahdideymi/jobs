@@ -1,0 +1,19 @@
+@import 'Styles/grid/grid.scss';
+
+.card {
+  direction: rtl;
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px #ebebeb;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+@include susy-media(320px 1024px) {
+  .card {
+    width: 100%;
+  }
+}

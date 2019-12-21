@@ -1,0 +1,26 @@
+.employer-jobs-page {
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__icon {
+    display: inline-flex !important;
+    vertical-align: middle !important;
+    margin-left: 8px;
+  }
+
+  &__header {
+    justify-content: flex-end;
+    padding: 0 0 0 200px !important;
+  }
+
+  &__pagination {
+    direction: ltr;
+    text-align: center;
+    margin-bottom: 18px !important;
+  }
+}
+
+.modal-open {
+  width: 100% !important;
+}

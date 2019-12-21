@@ -1,0 +1,23 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f5ff;
+  padding: 8px;
+  height: 48px;
+  margin-bottom: 18px;
+  margin-top: auto;
+  position: relative;
+  width: 90%;
+
+  &__avatar {
+    background-color: #fff !important;
+    margin-left: 8px !important;
+    border-radius: 10% !important;
+  }
+
+  &__icon {
+    display: flex !important;
+    align-items: center;
+    color: #b6b6b6 !important;
+  }
+}
